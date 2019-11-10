@@ -1,8 +1,13 @@
+#install node.js
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
+#create app directory
 mkdir /app
 cd /app
 sudo npm init
+#install express.js
 sudo npm install express --save
 # import server file #
+wget https://raw.githubusercontent.com/vitooh/gcp_test/master/server.js
+#run server
 sudo node server.js

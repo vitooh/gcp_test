@@ -7,7 +7,9 @@ cd /app
 sudo npm init
 #install express.js
 sudo npm install express --save
+sudo npm install pg --save
 # import server file #
-wget https://raw.githubusercontent.com/vitooh/gcp_test/master/server.js
+wget https://raw.githubusercontent.com/vitooh/gcp_test/master/serverpg.js
+wget https://raw.githubusercontent.com/vitooh/gcp_test/master/queries.js
 #run server
-sudo node server.js
+sudo node serverpg.js

@@ -1,0 +1,7 @@
+#!/bin/bash
+sleep 60*60
+killall chrome
+sleep 10
+rm test
+
+#make it executable:  sudo chmod +x test
